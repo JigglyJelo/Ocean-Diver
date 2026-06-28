@@ -1796,7 +1796,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Graphics\\Buttons\\Menu Buttons\\unlocksButton.png",
+                  "image": "Graphics/Buttons/Menu Buttons/creditsButton.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
