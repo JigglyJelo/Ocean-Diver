@@ -1,5 +1,7 @@
+SFX Used:
 https://opengameart.org/content/3-melee-sounds CC0 remaxim
 https://opengameart.org/content/40-cc0-water-splash-slime-sfx CC0 rubberduck
 https://opengameart.org/content/metal-impact-sounds CC0 BMacZero
 https://opengameart.org/content/short-alarm CC0 yd
 https://opengameart.org/content/8-wet-squish-slurp-impacts CC0 Independent.nu
+Hit 1, Explosion 7, pump, pump2 CC0
