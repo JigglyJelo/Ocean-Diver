@@ -67,7 +67,7 @@
   "variables": [
     {
       "name": "sf2OnScreen",
-      "persistentUuid": "32df674d-da9d-4b85-a0c1-94dab3eae349",
+      "persistentUuid": "e17da840-30b6-46b4-bcec-45924ca25a6a",
       "type": "boolean",
       "value": false
     }
