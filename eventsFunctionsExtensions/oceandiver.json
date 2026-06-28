@@ -1757,7 +1757,7 @@
       "fullName": "Singleplayer Death",
       "functionType": "Action",
       "name": "SingleplayerDeath",
-      "sentence": "Singleplayer Death: hi _PARAM1_, scoretext _PARAM2_,  player _PARAM3_, waves _PARAM4_,  angler _PARAM5_,  explosion _PARAM6_,  gameoverlogo _PARAM7_, harpoon _PARAM8_, hiscoretext _PARAM9_,  menubutton _PARAM10_,  enemy _PARAM11_, missile _PARAM12_, retrybutton  _PARAM13_, scoretext _PARAM14_,  timeimagetext_PARAM15_, timetext _PARAM16_",
+      "sentence": "Singleplayer Death: hi _PARAM1_, scoretext _PARAM2_,  player _PARAM3_, waves _PARAM4_,  angler _PARAM5_,  explosion _PARAM6_,  gameoverlogo _PARAM7_, harpoon _PARAM8_, hiscoretext _PARAM9_,  menubutton _PARAM10_,  enemy _PARAM11_, missile _PARAM12_, retrybutton  _PARAM13_, scoretext _PARAM14_,  timeimagetext_PARAM15_, timetext _PARAM16_, versiontext _PARAM17_",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1807,6 +1807,7 @@
                 "timeText",
                 "scoreText",
                 "hiscoreText",
+                "versionText",
                 ""
               ]
             },
@@ -1917,6 +1918,12 @@
         {
           "description": "",
           "name": "timeText",
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "versionText",
           "supplementaryInformation": "TextObject::Text",
           "type": "objectList"
         }
@@ -4177,7 +4184,7 @@
       "fullName": "revealHUD",
       "functionType": "Action",
       "name": "showHUDWhenDead",
-      "sentence": "_PARAM1_ HI, _PARAM2_ SCORE, _PARAM3_ TIME:, _PARAM4_ TIMETEXT, _PARAM5_ scoreTEXT, _PARAM6_ hiscoretext",
+      "sentence": "_PARAM1_ HI, _PARAM2_ SCORE, _PARAM3_ TIME:, _PARAM4_ TIMETEXT, _PARAM5_ scoreTEXT, _PARAM6_ hiscoretext, versiontext _PARAM7_",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4236,6 +4243,15 @@
                 "hiscoreText",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "versionText",
+                ""
+              ]
             }
           ]
         }
@@ -4259,16 +4275,25 @@
         {
           "description": "",
           "name": "TIMETEXT",
+          "supplementaryInformation": "TextObject::Text",
           "type": "objectList"
         },
         {
           "description": "",
           "name": "scoreText",
+          "supplementaryInformation": "TextObject::Text",
           "type": "objectList"
         },
         {
           "description": "",
           "name": "hiscoreText",
+          "supplementaryInformation": "TextObject::Text",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "versionText",
+          "supplementaryInformation": "TextObject::Text",
           "type": "objectList"
         }
       ],

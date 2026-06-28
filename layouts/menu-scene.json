@@ -1816,6 +1816,50 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "versionText",
+      "persistentUuid": "7fcba8c2-29dd-4a7e-b7e8-d1766f597bf8",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "V26-28-6",
+      "font": "Font\\WereDiving.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "V26-28-6",
+        "font": "Font\\WereDiving.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1907,6 +1951,9 @@
       },
       {
         "objectName": "creditsText"
+      },
+      {
+        "objectName": "versionText"
       },
       {
         "objectName": "shootBubble"
@@ -7027,6 +7074,30 @@
         },
         {
           "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "versionText",
+            "1920",
+            "1080",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "versionText",
+            "=",
+            "1920-versionText.Width()",
+            "=",
+            "1080-versionText.Height()"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -7180,6 +7251,15 @@
           },
           "parameters": [
             "creditsText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "versionText",
             ""
           ]
         },

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.49739196665471846,
+    "zoomFactor": 0.4213892758173696,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -67,7 +67,6 @@
   "variables": [
     {
       "name": "sf2OnScreen",
-      "persistentUuid": "e17da840-30b6-46b4-bcec-45924ca25a6a",
       "type": "boolean",
       "value": false
     }
@@ -642,6 +641,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "versionText",
+      "persistentUuid": "87723e02-367b-4241-9677-612d47d4fae8",
+      "width": 0,
+      "x": 920,
+      "y": 0,
+      "zOrder": 4001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -649,6 +664,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "Waves",
+      "persistentUuid": "2580eab6-401d-4ad9-98c8-6b9c0722057d",
       "texture": "Graphics\\Backgrounds\\Waves\\wave2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
@@ -1195,6 +1211,7 @@
       "bold": true,
       "italic": false,
       "name": "scoreText",
+      "persistentUuid": "99fae23c-2a68-4757-8cdd-747782807981",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -5696,6 +5713,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "gameoverLogo",
+      "persistentUuid": "986e2810-734d-4245-850c-56ceee2ddb14",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5778,6 +5796,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "juiceBorder",
+      "persistentUuid": "8e6572e4-8e49-4f81-9409-06d3656550df",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7305,6 +7324,50 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "versionText",
+      "persistentUuid": "f3106751-da59-4590-ad45-da9ef7f5a79a",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "V26-28-6",
+      "font": "Font\\WereDiving.ttf",
+      "textAlignment": "",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "V26-28-6",
+        "font": "Font\\WereDiving.ttf",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7339,6 +7402,9 @@
       },
       {
         "objectName": "scoreText"
+      },
+      {
+        "objectName": "versionText"
       },
       {
         "objectName": "skyDay"
@@ -8066,6 +8132,14 @@
               },
               "parameters": [
                 "pauseLogo"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "versionText"
               ]
             },
             {
@@ -37589,6 +37663,7 @@
             "scoreText",
             "timeImageText",
             "timeText",
+            "versionText",
             ""
           ]
         }
@@ -37653,21 +37728,6 @@
           "parameters": [
             "",
             "\"Time\""
-          ]
-        },
-        {
-          "type": {
-            "value": "OceanDiver::showHUDWhenDead"
-          },
-          "parameters": [
-            "",
-            "Hi",
-            "ScoreText",
-            "timeImageText",
-            "timeText",
-            "scoreText",
-            "hiscoreText",
-            ""
           ]
         },
         {
@@ -37908,6 +37968,15 @@
           },
           "parameters": [
             "timeImageText",
+            "\"0;0;0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "versionText",
             "\"0;0;0\""
           ]
         }
@@ -39100,6 +39169,15 @@
           },
           "parameters": [
             "retryButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "versionText",
             ""
           ]
         },
@@ -46709,6 +46787,15 @@
                 },
                 {
                   "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "versionText",
+                    "\"0;0;0\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "StopSoundCanal"
                   },
                   "parameters": [
@@ -48055,6 +48142,15 @@
                   },
                   "parameters": [
                     "scoreText",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "versionText",
                     "\"255;255;255\""
                   ]
                 },
@@ -51815,7 +51911,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Endgame Fin",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
