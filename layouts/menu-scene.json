@@ -1702,10 +1702,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Game by JigglyJello\nhttps://opengameart.org/content/as-far-as-the-eye CC BY 3\nhttps://opengameart.org/content/null-function CC BY 4",
-      "font": "",
-      "textAlignment": "",
-      "characterSize": 20,
+      "string": "Game by JigglyJello\nCode available GPL 3 or later\nMusic:\nAs far as the eye by Snabisch CC BY 3\nNull Function by congusbongus CC BY 4\nContains various CC0 SFX and Music visit\ngithub.com/JigglyJelo/Ocean-Diver\nfor full credits and licenses",
+      "font": "Font\\WereDiving.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
       "color": {
         "b": 255,
         "g": 255,
@@ -1725,11 +1725,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Game by JigglyJello\nhttps://opengameart.org/content/as-far-as-the-eye CC BY 3\nhttps://opengameart.org/content/null-function CC BY 4",
-        "font": "",
-        "textAlignment": "",
+        "text": "Game by JigglyJello\nCode available GPL 3 or later\nMusic:\nAs far as the eye by Snabisch CC BY 3\nNull Function by congusbongus CC BY 4\nContains various CC0 SFX and Music visit\ngithub.com/JigglyJelo/Ocean-Diver\nfor full credits and licenses",
+        "font": "Font\\WereDiving.ttf",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -7011,6 +7011,18 @@
             "960",
             "540",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "creditsText",
+            "=",
+            "960-(creditsText.Width()/2)",
+            "=",
+            "720-(creditsText.Height()/2)"
           ]
         },
         {
