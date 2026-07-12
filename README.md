@@ -7,7 +7,7 @@ Dive into the ocean in your trusty submarine and aim for a highscore!
 ---
 
 ## Built With
-* **Engine:** GDevelop
+* **Engine:** [GDevelop](https://gdevelop.io/) MIT Licensed
 
 ## Licenses
 * **Code:** Licensed under the [GNU General Public License v3.0 or later](LICENSE).
