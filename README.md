@@ -4,6 +4,8 @@
 
 Dive into the ocean in your trusty submarine and aim for a highscore!
 
+**[Play on itch.io](https://jigglyjello.itch.io/ocean-diver)**
+
 ---
 
 ## Built With
