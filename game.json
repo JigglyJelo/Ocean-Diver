@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu Scene",
   "gdVersion": {
-    "build": 272,
+    "build": 276,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -2468,6 +2468,14 @@
         "kind": "image",
         "metadata": "",
         "name": "Graphics/Buttons/Menu Buttons/creditsButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Graphics/Submarines/sandwhich/subsub.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics/Submarines/sandwhich/subsub.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -12352,7 +12360,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Graphics\\Submarines\\sandwhich\\subsub.png",
+                  "image": "Graphics/Submarines/sandwhich/subsub.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
