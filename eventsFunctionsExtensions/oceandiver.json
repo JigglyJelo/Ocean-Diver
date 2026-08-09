@@ -4299,11 +4299,11 @@
       "objectGroups": []
     },
     {
-      "description": "toggles switch mode",
+      "description": "Disables Pixel Mode",
       "fullName": "",
       "functionType": "Action",
       "name": "pixelOff",
-      "sentence": "",
+      "sentence": "Disable Pixel",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4315,51 +4315,7 @@
               },
               "parameters": [
                 "",
-                "\"sharks\"",
-                "\"Pixel\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
-                "\"Pixel\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Pixel\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Pixel\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
+                "\"Enemies\"",
                 "\"Pixel\"",
                 "no"
               ]
@@ -4393,11 +4349,11 @@
       "objectGroups": []
     },
     {
-      "description": "toggles switch mode",
+      "description": "Enables Pixel Mode",
       "fullName": "",
       "functionType": "Action",
       "name": "pixelOn",
-      "sentence": "Switch Mode Activate",
+      "sentence": "Enable Pixel",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4409,51 +4365,7 @@
               },
               "parameters": [
                 "",
-                "\"sharks\"",
-                "\"Pixel\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
-                "\"Pixel\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Pixel\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Pixel\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
+                "\"Enemies\"",
                 "\"Pixel\"",
                 "yes"
               ]
@@ -4487,11 +4399,11 @@
       "objectGroups": []
     },
     {
-      "description": "toggles switch mode",
+      "description": "Disable Sepia Mode",
       "fullName": "",
       "functionType": "Action",
       "name": "sepiaOff",
-      "sentence": "",
+      "sentence": "Disable Sepia",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4503,51 +4415,7 @@
               },
               "parameters": [
                 "",
-                "\"sharks\"",
-                "\"Sepia\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
-                "\"Sepia\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Sepia\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Sepia\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
+                "\"Enemies\"",
                 "\"Sepia\"",
                 "no"
               ]
@@ -4581,11 +4449,11 @@
       "objectGroups": []
     },
     {
-      "description": "toggles switch mode",
+      "description": "Enables Sepia Mode",
       "fullName": "",
       "functionType": "Action",
       "name": "sepiaOn",
-      "sentence": "",
+      "sentence": "Enable Sepia",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4597,51 +4465,7 @@
               },
               "parameters": [
                 "",
-                "\"sharks\"",
-                "\"Sepia\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
-                "\"Sepia\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Sepia\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Sepia\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
+                "\"Enemies\"",
                 "\"Sepia\"",
                 "yes"
               ]
@@ -4675,11 +4499,11 @@
       "objectGroups": []
     },
     {
-      "description": "toggles switch mode",
+      "description": "Disables Dark mode",
       "fullName": "",
       "functionType": "Action",
       "name": "darknessOff",
-      "sentence": "",
+      "sentence": "Disable Dark",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4691,51 +4515,7 @@
               },
               "parameters": [
                 "",
-                "\"sharks\"",
-                "\"Dark\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
-                "\"Dark\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Dark\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Dark\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
+                "\"Enemies\"",
                 "\"Dark\"",
                 "no"
               ]
@@ -4769,11 +4549,11 @@
       "objectGroups": []
     },
     {
-      "description": "toggles switch mode",
+      "description": "Enables Dark mode",
       "fullName": "",
       "functionType": "Action",
       "name": "darknessOn",
-      "sentence": "",
+      "sentence": "Enable Dark",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4785,51 +4565,7 @@
               },
               "parameters": [
                 "",
-                "\"sharks\"",
-                "\"Dark\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
-                "\"Dark\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Dark\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Dark\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
+                "\"Enemies\"",
                 "\"Dark\"",
                 "yes"
               ]
@@ -4866,7 +4602,7 @@
       "fullName": "",
       "functionType": "Action",
       "name": "dotoff",
-      "sentence": "",
+      "sentence": "Disable Dot",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4878,29 +4614,7 @@
               },
               "parameters": [
                 "",
-                "\"Background\"",
-                "\"Dot\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
-                "\"Dot\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
+                "\"Enemies\"",
                 "\"Dot\"",
                 "no"
               ]
@@ -4922,40 +4636,7 @@
               },
               "parameters": [
                 "",
-                "\"turtles\"",
-                "\"Dot\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Dot\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"sharks\"",
-                "\"Dot\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
+                "\"Background\"",
                 "\"Dot\"",
                 "no"
               ]
@@ -4970,7 +4651,7 @@
       "fullName": "",
       "functionType": "Action",
       "name": "dotOn",
-      "sentence": "",
+      "sentence": "Enable Dot",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4982,18 +4663,7 @@
               },
               "parameters": [
                 "",
-                "\"squids\"",
-                "\"Dot\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
+                "\"Enemies\"",
                 "\"Dot\"",
                 "yes"
               ]
@@ -5005,50 +4675,6 @@
               "parameters": [
                 "",
                 "\"\"",
-                "\"Dot\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"turtles\"",
-                "\"Dot\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"Dot\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"sharks\"",
-                "\"Dot\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
                 "\"Dot\"",
                 "yes"
               ]
@@ -5063,7 +4689,7 @@
       "fullName": "",
       "functionType": "Action",
       "name": "monochromeOff",
-      "sentence": "",
+      "sentence": "Disable Monochrome",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -5075,29 +4701,7 @@
               },
               "parameters": [
                 "",
-                "\"Background\"",
-                "\"monochrome\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
-                "\"monochrome\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
+                "\"Enemies\"",
                 "\"monochrome\"",
                 "no"
               ]
@@ -5119,40 +4723,7 @@
               },
               "parameters": [
                 "",
-                "\"turtles\"",
-                "\"monochrome\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"monochrome\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"sharks\"",
-                "\"monochrome\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
+                "\"Background\"",
                 "\"monochrome\"",
                 "no"
               ]
@@ -5167,7 +4738,7 @@
       "fullName": "",
       "functionType": "Action",
       "name": "monochromeOn",
-      "sentence": "",
+      "sentence": "Enable Monochrome",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -5179,29 +4750,7 @@
               },
               "parameters": [
                 "",
-                "\"Background\"",
-                "\"monochrome\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"squids\"",
-                "\"monochrome\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
+                "\"Enemies\"",
                 "\"monochrome\"",
                 "yes"
               ]
@@ -5223,40 +4772,7 @@
               },
               "parameters": [
                 "",
-                "\"turtles\"",
-                "\"monochrome\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"angler\"",
-                "\"monochrome\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"sharks\"",
-                "\"monochrome\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EnableLayerEffect"
-              },
-              "parameters": [
-                "",
-                "\"mines\"",
+                "\"Background\"",
                 "\"monochrome\"",
                 "yes"
               ]
@@ -13015,10 +12531,11 @@
       "objectGroups": []
     },
     {
+      "description": "Moves the Sub",
       "fullName": "",
       "functionType": "Action",
       "name": "playerMovement",
-      "sentence": "",
+      "sentence": "_PARAM1_, _PARAM2_",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -13031,7 +12548,7 @@
               "parameters": [
                 "Submarine",
                 "0",
-                "(1680 + Variable(subSpeed)) * TimeDelta() * Multiplier",
+                "(1680 - Variable(subSpeed)) * TimeDelta() * Multiplier",
                 "1"
               ]
             }

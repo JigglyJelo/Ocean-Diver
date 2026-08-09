@@ -14743,7 +14743,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Dev",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14854,7 +14853,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -29787,6 +29785,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Mouse Missile",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -43890,7 +43889,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Score Changes",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -45535,7 +45533,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ocean Diver 1 & 2 20000 Points BG",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
